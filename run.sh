@@ -1,0 +1,2 @@
+JARS=/Users/sanjua/.m2/repository
+java -cp target/linksreader-app-1.0-SNAPSHOT.jar:$JARS/nl/basjes/parse/core/parser-core/2.0-SNAPSHOT/parser-core-2.0-SNAPSHOT.jar:$JARS/nl/basjes/parse/httpdlog-parser/2.0-SNAPSHOT/httpdlog-parser-2.0-SNAPSHOT.jar:$JARS/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar:$JARS/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:$JARS/org/apache/log4j/apache-log4j/1.2.17/apache-log4j-1.2.17.jar:$JARS/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:$JARS/joda-time/joda-time/2.1/joda-time-2.1.jar com.linksreader.app.App urllinks.txt
